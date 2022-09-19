@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/607e717621.js" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+     <!--Navbar-->
+     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Wanderlust</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse justify-content-end navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" target="_blank">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#login">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- ---- Hero Picture Grid & Text ---- -->
+      <div class="container-hero-text">
+        <div class="hero-text">
+          <h1>Wanderlust</h1>
+          <h2>The Place for Travelers</h2>
+        </div> 
+      </div>
+      <div class="container-pic-grid">
+        <img id="clear" class="pic1" src="https://cdn.pixabay.com/photo/2016/11/02/16/02/natural-1792047_1280.jpg">
+        <img class="pic2" src="https://cdn.pixabay.com/photo/2016/11/02/16/02/natural-1792047_1280.jpg">
+        <img class="pic3" src="https://cdn.pixabay.com/photo/2016/11/02/16/02/natural-1792047_1280.jpg">
+        <img class="pic4" src="https://cdn.pixabay.com/photo/2016/11/02/16/02/natural-1792047_1280.jpg">
+        <img class="pic5" src="https://cdn.pixabay.com/photo/2016/11/02/16/02/natural-1792047_1280.jpg">
+        <img class="pic6" src="https://cdn.pixabay.com/photo/2016/11/02/16/02/natural-1792047_1280.jpg">
+        <img class="pic7" src="https://cdn.pixabay.com/photo/2016/11/02/16/02/natural-1792047_1280.jpg">
+        <img class="pic8" src="https://cdn.pixabay.com/photo/2016/11/02/16/02/natural-1792047_1280.jpg">
+      </div>
+
+
+      <!--Login-->
+      <!--version1-->
+    <div class="div-3" id="login">
+        <section class="vh-100 gradient-custom">
+            <div class="container py-5 h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                  <div class="card bg-primary text-white" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+          
+                      <div class="mb-md-5 mt-md-4 pb-5">
+          
+                        <p class="text-white-50 mb-5">Please enter your login and password!</p>
+          
+                        <div class="form-outline form-white mb-4">
+                          <input type="username" id="username" class="form-control form-control-lg" />
+                          <label class="form-label" for="username">Username</label>
+                        </div>
+          
+                        <div class="form-outline form-white mb-4">
+                          <input type="password" id="typePasswordX" class="form-control form-control-lg" />
+                          <label class="form-label" for="typePasswordX">Password</label>
+                        </div>
+          
+                        <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
+          
+                        <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+          
+                        <!-- <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                          <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                          <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                          <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+                        </div> -->
+          
+                      </div>
+          
+                      <div>
+                        <p class="mb-0">Don't have an account? <a href="signup.html" class="text-white-50 fw-bold">Sign Up</a>
+                        </p>
+                      </div>
+          
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </div>
+    <!--version2-->
+    <!--<section class="vh-100" style="background-color: white;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                <div class="card-body p-5 text-center">
+      
+                  <div class="form-outline mb-4">
+                    <input type="username" id="username" class="form-control form-control-lg" />
+                    <label class="form-label" for="username">Username</label>
+                  </div>
+      
+                  <div class="form-outline mb-4">
+                    <input type="password" id="typePasswordX-2" class="form-control form-control-lg" />
+                    <label class="form-label" for="typePasswordX-2">Password</label>
+                  </div>
+                  <div>
+                    <p class="mb-0">Don't have an account? <a href="#!" class="text-black-50 fw-bold">Sign Up</a>
+                    </p>
+                  </div>
+                  <button class="btn btn btn-lg btn-block" type="submit" style="background-color: #326273;">Login</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>-->
+    <br> <br> <br> <br> 
+    <!--Features-->
+    <div class="firstbox p-5" style="background-color:#fad5c5">
+        <div class="secondbox d-flex" style="background-color: white;">
+            <div class="row justify-content-between" id="icon-grid">
+                <div class="feature">
+                    <div style="text-align: center;">
+                    <i class="fa-solid fa-diagram-project fa-2x text-primary"></i>
+                    <h4>Connect</h4>
+                    <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nulia quam velit, vulputate eu pharetra nec.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div style="text-align: center;">
+                        <i class="fa-solid fa-compass fa-2x text-primary"></i>
+                    <h4>Location</h4>
+                    <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nulia quam velit, vulputate eu pharetra nec.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div style="text-align: center;">
+                        <i class="fa-solid fa-camera fa-2x text-primary"></i>
+                    <h4>Photos</h4>
+                    <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nulia quam velit, vulputate eu pharetra nec.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <br>
+      <!--Meet the Team-->
+      <div class="team">
+        <h3>Meet the Team</h3>
+      <br>
+      <br>
+      <p>The people who make everything happen</p>
+      <!--version1-->
+      <div class="container about-team my-5">
+        <div class="row d-flex justify-content-center ">
+          <div class="col-2 d-flex justify-content-center card1"> 
+            <div class="card border-0 text-center mt-4" style="width: 15rem;">
+                <div class="img-crop sushma">
+                </div> 
+                <div class="card-body">
+                  <!-- <p class="card-text my-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <!-- <hr class="my-4"> -->
+                  <h5 class="card-title bold color-primary font-weight-5">Sushma Eluri</h5>
+                  <h6 class="bold">Full Stack Developer</h6>
+                </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex justify-content-center card2">
+            <div class="card border-0 text-center mt-4" style="width: 15rem;">
+                <div class="img-crop ayaka">
+                </div> 
+                <div class="card-body">
+                  <!-- <p class="card-text my-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <hr class="my-4"> -->
+                  <h5 class="card-title bold color-primary font-weight-5">Ayaka Ikawa</h5>
+                  <h6 class="bold">Full Stack Developer</h6>
+                </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex justify-content-center card2">
+            <div class="card border-0 text-center mt-4" style="width: 15rem;">
+                <div class="img-crop eden">
+                </div> 
+                <div class="card-body">
+                  <!-- <p class="card-text my-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <hr class="my-4"> -->
+                  <h5 class="card-title bold color-primary font-weight-5">Eden Negash</h5>
+                  <h6 class="bold">Full Stack Developer</h6>
+                </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex justify-content-center card2">
+            <div class="card border-0 text-center mt-4" style="width: 15rem;">
+                <div class="img-crop heather">
+                </div> 
+                <div class="card-body">
+                  <!-- <p class="card-text my-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <hr class="my-4"> -->
+                  <h5 class="card-title bold color-primary font-weight-5">Heather Parker</h5>
+                  <h6 class="bold">Full Stack Developer</h6>
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <br>
+
+      <!-- Colorful Stripe -->
+    <div class="before-footer p-5"></div>
+
+    <footer>
+      <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container-fluid">
+
+        <div class="collapse justify-content-end navbar-collapse" id="navbarToggler">
+        <div class="container-fluid p-5 text-white">
+            <div class="row mx-5">
+              <div class="col d-flex justify-content-start">
+                Wanderlust | Copyright ©️ 2022 | All Rights Reserved 
+              </div>
+              <div class="col d-flex justify-content-center">
+                <a class="navbar-brand" href="index.html">Wanderlust</a>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#login">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>

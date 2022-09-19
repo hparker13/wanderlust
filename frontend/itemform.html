@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css"> 
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Wanderlust</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse justify-content-end navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" target="_blank">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " href="index.html">Sign Out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container4">
+        <div class="row">
+          
+           
+            <div class="col-sm-3 col-color">
+              <div class="card if-profile-card border-0 text-center mt-5" style="width: 17rem;">
+                  <div class="img-crop1">
+                  </div> 
+                  <div class="card-body">
+                    
+            <p class="card-text">While some of us are fixated on space exploration and colonizing Mars, the truth is that some parts of our planets are still pratically untouched .</p>
+            <h5 class="card-title bold color-primary font-weight-5">Sushma Eluri</h5>    
+            <hr></hr><br>
+            <div class="button">
+             <button type="submit" class="bg-primary" id="submit1" class="button"> create post
+              
+              </button><br><br>
+               
+                <button type="submit" id= "submit2"><i class="bi bi-stars"></i>Wish list</button>
+              
+                <br><br>
+                <button type="submit" id="submit2"><i class="bi bi-globe"></i>Visited</button><br><br>
+                <button type="submit" id= "submit2"><i class="bi bi-heart-fill" id="iconcolor"></i>Favourites</button><br><br>
+              </div>
+               </div>
+              
+            </div>
+          </div>
+        <div class="col sm-6">
+          <h5>New Post</h5>
+         <hr class="line"></hr><br>
+            <form id="postForm">
+              
+                <input id="location" type="text" placeholder="Location"><br><br><br>
+                <textarea id="postTextInput" class="form-control" rows="5" cols="1" placeholder="Type your text here"></textarea><br><br><br>
+                <input type="file" id="postPicInput">
+
+
+              <hr class="line"></hr><br>
+              <div class="button">
+                <button type="submit" id= "psubmit" class="bg-primary">Post</button>&nbsp;
+                <button type="submit" id="submit3">Cancel</button>
+               </div>
+              </form>
+              </div>
+            
+            </div>
+       </div>
+      </div>       
+     
+      <div class="before-footer p-5"></div>
+      <footer>
+        <!--Navbar-->
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+  
+          <div class="collapse justify-content-end navbar-collapse" id="navbarToggler">
+          <div class="container-fluid p-5 text-white">
+              <div class="row mx-5">
+                <div class="col d-flex justify-content-start">
+                  Wanderlust | Copyright ©️ 2022 | All Rights Reserved 
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a class="navbar-brand" href="index.html">Wanderlust</a>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Sign Out</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<script src="js/itemsController.js"></script>
+<script src="js/item-form.js"></script>
+
+</body>
+</html>

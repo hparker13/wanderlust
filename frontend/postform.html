@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust: New Post</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+ 
+    <script src="https://kit.fontawesome.com/607e717621.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css"> 
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Wanderlust</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse justify-content-end navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Sign Out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ SIDEBAR ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+
+    <div class="workspace-layout">
+        <div class="workspace-sidebar">
+            <div class="profile-content">
+            <div class="img-crop"></div>
+            <h5>USERNAME</h5>
+            <p>More text and stuff here Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias vel reprehenderit, architecto sapiente eaque aliquam recusandae consequuntur esse nobis. Nobis sit laudantium voluptatibus facere perferendis ducimus quaerat sunt asperiores quidem.</p>
+            <button class="profile-post-button bg-primary dark-button"><a href="itemform.html"></i>Create Post</a></button>
+            <button class="profile-button"><i class="fa-solid fa-star"></i>Wish List</button>
+            <button class="profile-button"><i class="fa-solid fa-earth-americas"></i>Visited</button>
+            <button class="profile-button"><i class="fa-solid fa-heart"></i>Favorites</button>
+            </div>
+        </div>
+
+    <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ END SIDEBAR ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+    
+
+        <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ Main Content ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+        <div class="workspace-primary">
+            <!-- - - - - - - Form - - - - - - - -->
+            <div class="container signup mb-5">
+  
+                <div class="row">
+                    <div class="signup-form">
+                        <form id="newPostForm" action="" class="mt-5 border p-4 bg-light shadow">
+                            <h4 class="mb-5 text-secondary">New Post</h4>
+
+                            <div class="">
+                                <input type="text" name="location" id="location" class="form-control" placeholder="Location">
+                                <br>
+                                <textarea id="postTextInput" class="form-control" rows="5" cols="1" placeholder="Tell the world here..."></textarea>
+                                <br>
+                                <input type="file" id="postPicInput"> <br><br>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <button class="btn" id="psubmit">Post</button>
+                                </div>
+                                <div class="col-md-1">
+                                    <button class="btn" id="addcancel">Cancel</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- END FORM -->
+        </div>
+        <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ END Main Content ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+
+
+        </div>
+    </div>
+
+    <!--Gradient Stripe Across Bottom-->
+    <div class="before-footer p-5"></div>
+    <footer>
+      <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+            <div class="collapse justify-content-end navbar-collapse" id="navbarToggler">
+                <div class="container-fluid p-5 text-white">
+                    <div class="row mx-5">
+                        <div class="col d-flex justify-content-start">
+                            Wanderlust | Copyright ©️ 2022 | All Rights Reserved 
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <a class="navbar-brand" href="index.html">Wanderlust</a>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Sign Out</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </footer>
+    
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
+<script src="js/itemsController.js"></script>
+<!-- <script src="js/posts.js"></script> -->
+<!-- <script src="js/index.js"></script> -->
+<script src="js/item-form.js"></script>
+</body>
+</html>
