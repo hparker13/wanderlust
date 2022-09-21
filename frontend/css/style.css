@@ -205,58 +205,6 @@ footer .navbar .container-fluid .collapse .container-fluid .mx-5 {
     color: #326273;
 }
 
-
-
-/*.container {
-    display: flex;
-    position: relative;
-}*/
-
-/*.column {
-    
-    width: 30.33%;
-    padding: 5px;
-    margin: 10px; 
-    border: 0.5px solid #326273; 
-    border-radius: 5px;
-  }
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    justify-content: center;
-  }*/
-
-  /*.first {
-    width: 100px; 
-    height: 100px; 
-    background-color:#e39774;
-    border: 1px solid #e39774; 
-    border-radius: 5px;
-  }
-
-  .first .second {
-    width: 50%; 
-    height: 50%; 
-    background-color:#fad5c5;
-  }*/
-
-  /*features*/
-  /*.secondbox .py-5 {
-    padding-top: 3rem! important; 
-    padding-bottom: 3rem! important; 
-  }
-
-  .secondbox .px-4 {
-    padding-top: 1.5rem! important; 
-    padding-bottom: 1.5rem! important; 
-  }*/
-
-  /*.secondbox {
-    padding: 50px 100px; 
-    margin: 20px; 
-  }*/
 .secondbox {
   max-width: 70%;
   margin: 0 auto;
@@ -316,38 +264,6 @@ footer .navbar .container-fluid .collapse .container-fluid .mx-5 {
 }
 
   /* -------- STEP 2: POSTS -------- */
-  /* #submit{
-    background-color: gray;
-    margin-bottom: 20px;
-    width: 30%;
-}
-.line{
-    border: 0.5px solid lightslategray;
-    width: 100%;
-    margin: 10px;
-    opacity: 1;
-    gap: 1px;
-    opacity: 1;
-
-
-}
-h5{
-    font-weight: 100;
-    margin-top: 100px;
-
-.pics {
-    max-width:auto;
-    justify-content: space-between;
-    align-content: space-between;
-}  
-.pics img {
-    max-height: 300px;
-    max-width: 370px;
-    overflow: hidden;
-    margin-top: 15px;
-    
-    margin: 10px;
-} */
 
 
   /* ----- Side Bar Page Configuration Start ----- */
@@ -433,7 +349,7 @@ h5{
   /* display: flex;
   flex-direction: row;
   flex-wrap: wrap; */
-  height: 800px;
+  /* height: 800px; */
   margin-right: 50px;
   margin-bottom: 50px;
   /* display: grid; */
@@ -443,13 +359,13 @@ h5{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
-  gap: 21px;
+  /* gap: 21px; */
 }
 
 .post-flex-container .card {
   border: 1px solid teal !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 .post-card {
@@ -496,71 +412,6 @@ h5{
 
 /* ----- Main Post Content End ----- */
 
-/* body {
-	margin: 20px;
-}
-
-.container {
-	padding: 0 10px;
-} */
-
-/* @media (min-width: 768px) {
-	.container {
-		width: 768px;
-	}
-}
-
-@media (min-width: 992px) {
-	.container {
-		width: 868px;
-	}
-} */
-
-/* .div1, .div2, .div3, .div4, .div5, .div6 {
-	background-color: #999;
-	border-radius: 6px;
-	width: 100%;
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-	font: bold 28px 'Arial'; 
-}
-
-.div1 {
-	height: 120px;
-}
-
-.div2 {
-	height: 260px;
-}
-
-.div3 {
-	height: 140px;
-} 
-
-.div4 {
-	height: 180px;
-}
-
-.div5 {
-	height: 200px;
-} 
-
-.div6 {
-	height: 90px;
-} */
-
-/* .row {
-	background-color: #CCC;
-	border-radius: 6px;
-	padding: 5px;
-	margin: 0;
-} */
-
-/* [class*="col-"] {
-	display: table;
-	padding: 5px;
-} */
 
 
   /* --------- STEP 3: Sign Up --------- */
